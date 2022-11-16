@@ -35,3 +35,7 @@ function parseJwt (token) {
     var base64 = base64Url.replace('-', '+').replace('_', '/');
     return JSON.parse(window.atob(base64));
 };
+
+**TRABAJAR CON ARCHIVOS EN NODEJS: https://www.npmjs.com/package/express-fileupload   VERSION DEL CURSO 1.2.1
+
+**Cloudinary version del curso: 1.32.0
